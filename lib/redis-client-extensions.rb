@@ -1,4 +1,8 @@
 require 'redis'
+begin
+  require 'mock_redis'
+rescue LoadError
+end
 
 module RedisClientExtensions
 
