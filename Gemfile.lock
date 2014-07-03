@@ -1,0 +1,32 @@
+PATH
+  remote: .
+  specs:
+    redis-client-extensions (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.2.5)
+    mock_redis (0.13.2)
+    redis (3.0.7)
+    rspec (3.0.0)
+      rspec-core (~> 3.0.0)
+      rspec-expectations (~> 3.0.0)
+      rspec-mocks (~> 3.0.0)
+    rspec-core (3.0.2)
+      rspec-support (~> 3.0.0)
+    rspec-expectations (3.0.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.0.0)
+    rspec-mocks (3.0.2)
+      rspec-support (~> 3.0.0)
+    rspec-support (3.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mock_redis (~> 0.13.2)
+  redis (~> 3.0.7)
+  redis-client-extensions!
+  rspec (~> 3.0.0)
