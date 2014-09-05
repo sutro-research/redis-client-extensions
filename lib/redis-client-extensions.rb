@@ -16,7 +16,6 @@ module RedisClientExtensions
   # Returns 'OK'
   def hmultiset(hkey, hash)
     hmset(hkey, *(hash.map { |k, v| [k, v] }.flatten))
-    'OK'
   end
 
 
